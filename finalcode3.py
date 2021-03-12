@@ -171,6 +171,7 @@ def forest(items,primograms):
                 items['Silver Knife']=1
                 print("You currently have {} primograms.".format(primograms))
                 print("The items in your inventory are," , items)
+                kalsProbs(items, primograms)
         elif(help=='n' or help=='No' or help=='N' or help=="no"):
             print("Guess there's nothing to do here...Let's move on..")
             kalsProbs(items, primograms)
